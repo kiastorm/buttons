@@ -11,7 +11,7 @@ test('has correct aria attributes', () => {
   // button has role="button"
   let button = screen.getByRole('button')
 
-  // isDisabled sets aria-disabled="true"
+  // disabled sets disabled
   expect(button).not.toHaveAttribute('aria-disabled')
   rerender(<Button disabled>Hello</Button>)
   button = screen.getByRole('button')
