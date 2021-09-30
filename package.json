@@ -23,17 +23,22 @@
     ]
   },
   "dependencies": {
+    "@stitches/react": "1.1.0",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.23",
+    "@types/jest-axe": "3.5.2",
     "@types/node": "^14.14.25",
     "@types/react": "^17.0.1",
+    "@types/react-dom": "17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
+    "axe-core": "^3.5.5",
     "babel-jest": "^27.0.2",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
@@ -41,9 +46,11 @@
     "husky": "^4.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.4",
+    "jest-axe": "5.0.1",
     "jest-watch-typeahead": "^0.6.1",
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.1.3"
   }
 }
